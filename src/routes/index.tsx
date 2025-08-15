@@ -6,8 +6,8 @@ export const Route = createFileRoute('/')({
 
 function App() {
   return (
-    <div className='flex min-h-screen items-center justify-center text-5xl'>
-     <h1 className='bg-primary text-secondary'>Hello, World!</h1>
+    <div className='my-10 container max-w-6xl mx-auto'>
+      <h1 className='text-4xl font-bold'>My Book List</h1>
     </div>
   )
 }
